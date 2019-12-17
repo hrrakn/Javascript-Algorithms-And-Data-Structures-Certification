@@ -8,7 +8,10 @@ let userActivity = {
 };
 
 // change code below this line
+// solution1
 userActivity['data']['online'] = 45
+// solution2
+userActivity.data.online = 45;
 // change code above this line
 
 console.log(userActivity);
